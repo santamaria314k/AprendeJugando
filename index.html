@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego Matemático </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🎮 Aprende Jugando</h1>
+
+  <div id="start-screen">
+    <input type="text" id="playerName" placeholder="Escribe tu nombre">
+    <button onclick="startGame()">Comenzar</button>
+  </div>
+
+  <div id="game-screen" class="hidden">
+    <h2 id="welcome"></h2>
+
+    <div class="question-box">
+      <p id="question">2 + 2</p>
+      <input type="number" id="answer" placeholder="Tu respuesta">
+      <button onclick="checkAnswer()">Responder</button>
+    </div>
+
+    <p class="score">⭐ Puntos: <span id="score">0</span></p>
+
+    <div id="reward-box" class="hidden">
+      <img id="reward-img" src="" alt="Premio motivacional">
+    </div>
+
+  </div>
+</div>
+
+<script src="logica.js"></script>
+</body>
+</html>

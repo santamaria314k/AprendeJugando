@@ -1,0 +1,92 @@
+body{
+  margin:0;
+  font-family:'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg,#ff9ad5,#8fd3ff);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.container{
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  text-align:center;
+  width:90%;
+  max-width:420px;
+}
+
+h1{
+  color:#ff6b6b;
+}
+
+input{
+  padding:12px;
+  border-radius:12px;
+  border:2px solid #ffd166;
+  margin:10px 0;
+  width:80%;
+  font-size:18px;
+  text-align:center;
+}
+
+button{
+  padding:12px 20px;
+  border:none;
+  border-radius:12px;
+  background:#06d6a0;
+  color:white;
+  font-size:18px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#04b383;
+}
+
+.question-box{
+  background:#f1f9ff;
+  padding:20px;
+  border-radius:15px;
+  margin:15px 0;
+}
+
+#question{
+  font-size:32px;
+  color:#333;
+  margin-bottom:10px;
+}
+
+.score{
+  font-size:20px;
+  color:#ff6b6b;
+}
+
+.hidden{
+  display:none;
+}
+
+#reward-box{
+  margin-top:15px;
+}
+
+#reward-img{
+  width:100%;
+  max-height:220px;
+  object-fit:contain;
+  border-radius:15px;
+  box-shadow:0 8px 18px rgba(0,0,0,0.2);
+}
+
+/* Responsive móvil */
+@media(max-width:480px){
+  #question{
+    font-size:26px;
+  }
+  button{
+    width:100%;
+  }
+}
