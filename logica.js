@@ -4,8 +4,8 @@ let player = "";
 let lastReward = null;
 
 const rewards = [
-  "img/1.png","img/2.png","img/3.png","img/4.png","img/5.png",
-  "img/6.png","img/7.png","img/8.png","img/9.png","img/10.png","img/11.png"
+  "img/1.PNG","img/2.PNG","img/3.PNG","img/4.PNG","img/5.PNG",
+  "img/6.PNG","img/7.PNG","img/8.PNG","img/9.PNG","img/10.PNG","img/11.PNG"
 ];
 
 function startGame(){
